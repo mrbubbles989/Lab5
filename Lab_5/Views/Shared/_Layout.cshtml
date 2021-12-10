@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Clothing Store</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="Chrome" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+		<!--The navbar for the site-->
+		<nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="Index.aspx"><span><img src="icons/icon.png" alt="The Clothing Store" height="30" /> </span>The Clothing Store</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a class="active nav-link" href="Index.cshtml">Home</a> </li>
+				<li class="dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Clothing Choices<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header"><a href="#">Men</a></li>
+						<li role="separator" class="dropdown-divider"></li>
+						<li class="dropdown-item"><a href="#">Tops</a></li>
+						<li class="dropdown-item"><a href="#">Bottoms</a></li>
+						<li class="dropdown-item"><a href="#">Suits</a></li>
+						<li class="dropdown-item"><a href="#">Shoes</a></li>
+						<li role="separator" class="dropdown-divider"></li>
+						<li class="dropdown-header"><a href="#">Women</a></li>
+						<li role="separator" class="dropdown-divider"></li>
+						<li class="dropdown-item"><a href="#">Tops</a></li>
+						<li class="dropdown-item"><a href="#">Skirts & Dresses</a></li>
+						<li class="dropdown-item"><a href="#">Pants & leggings</a></li>
+						<li class="dropdown-item"><a href="#">Shoes</a></li>
+					</ul>
+				</li>
+				<!--<li><a class="nav-link" href="SignUp.aspx">Registration</a> </li>-->
+			</ul>
+		</nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+	<!--The footer for the website-->
+	<footer class="footer-pos">
+		<p>&copy; <%: DateTime.Now.Year %> - The Clothing Store &middot; <a href="Index.aspx">Home</a>&middot;<a href="#">About</a>&middot;<a href="#">Clothing</a></p>
+	</footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
