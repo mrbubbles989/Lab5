@@ -1,38 +1,75 @@
-﻿
-@{
-	ViewData["Title"] = "Womens Tops";
+﻿@{
+	ViewData["Title"] = "Womens_Tops";
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!--A simple div container that shows the womens tops-->
-<div class="grid grid--uniform small--grid--flush">
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shirts1.jpg" class="grid-product__link" data-bss-pl="active"></a>
+
+<section class="section-products">
+	<!--Header-->
+	<div class="container">
+		<div class="row justify-content-center text-center">
+			<div class="col-md-8 col-lg-6">
+				<div class="header">
+					<h3>Womens Tops</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shirts1.jpg" alt="Grey Dress Shirt" style="width:100%" />
+				<h1 class="product-title">Red Dress</h1>
+				<p class="product-price">$49.99</p>
+				<p></p>
+				<p><input type="submit" value="Add to Cart" /></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shirts2.jpg" alt="White Shirt" style="width:100%" />
+				<h1 class="product-title">White Shirt</h1>
+				<p class="product-price">$29.99</p>
+				<p></p>
+				<p><input type="submit" value="Add to Cart" /></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shirts3.jpg" alt="Ripped Shirt" style="width:100%" />
+				<h1 class="product-title">Ripped Shirt</h1>
+				<p class="product-price">$59.99</p>
+				<p></p>
+				<p><input type="submit" value="Add to Cart" /></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shirts4.jpg" alt="Sleeveless Black Shirt" style="width:100%" />
+				<span class="discount">On Sale!</span>
+				<h1 class="product-title">Black Shirt</h1>
+				<p class="product-old-price">$89.99</p>
+				<p class="product-price">$49.99</p>
+				<p></p>
+				<p><input type="submit" value="Add to Cart" /></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shirts5.jpg" alt="Gray Tanktop" style="width:100%" />
+				<h1 class="product-title">Gray Tanktop</h1>
+				<p class="product-price">$29.99</p>
+				<p></p>
+				<p><input type="submit" value="Add to Cart" /></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shirts6.jpg" alt="Black Dress Shirt" style="width:100%" />
+				<h1 class="product-title">Black Dress Shirt</h1>
+				<p class="product-price">$39.99</p>
+				<p></p>
+				<p><input type="submit" value="Add to Cart" /></p>
+				<br />
+			</div>
 		</div>
 	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shirts2.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shirts3.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shirts4.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shirts5.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shirts6.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-</div>
+</section>

@@ -1,33 +1,66 @@
 ﻿
 @{
-    ViewData["Title"] = "Mens Suits";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Mens_Suits";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!--A simple div container that shows the suits-->
-<div class="grid grid--uniform small--grid--flush">
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/mens_suits1.jpg" class="grid-product__link" data-bss-pl="active"></a>
+
+<section class="section-products">
+	<!--Header-->
+	<div class="container">
+		<div class="row justify-content-center text-center">
+			<div class="col-md-8 col-lg-6">
+				<div class="header">
+					<h3>Mens Suits</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/mens_suits1.jpg" alt="Neutral Coloured Suit" style="width:100%" />
+				<h1 class="product-title">Boglioli Suit</h1>
+				<p class="product-old-price">$500.00</p>
+				<p class="product-price">$350.00</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/mens_suits2.jpg" alt="Traditional Black Suit With Tie" style="width:100%" />
+				<h1 class="product-title">Versace</h1>
+				<p class="product-price">$699.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/mens_suits3.png" alt="Traditional Black Suit With Bowtie" style="width:100%" />
+				<h1 class="product-title">Tommy Hillfiger</h1>
+				<p class="product-price">$299.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/mens_suits4.jpg" alt="Fancy Black Suit" style="width:100%" />
+				<h1 class="product-title">Ted Baker</h1>
+				<p class="product-price">$899.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/mens_suits5.jpg" alt="Blue Suit" style="width:100%" />
+				<h1 class="product-title">Kingsman</h1>
+				<p class="product-price">$799.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
 		</div>
 	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/mens_suits2.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/mens_suits3.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/mens_suits4.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/mens_suits5.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-</div>
+</section>

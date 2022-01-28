@@ -1,12 +1,12 @@
 ﻿
 @{
-    ViewData["Title"] = "Checkout";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Checkout";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="row">
+	<p>Please note that this is not a real </p>
 	<div class="col-75">
-		<div class="container">
+		<div id="checkout" class="container">
 			<!--A checkout form-->
 			<div class="row">
 				<div class="col-50">
@@ -76,13 +76,17 @@
 	</div>
 	<!--The cart that should show the items selected-->
 	<div class="col-25">
-		<div class="container">
-			<h4>Cart 
+		<div id="checkout" class="container">
+			<h4>
+				Cart
 				<span class="price" style="color:black">
 					<i class="fa fa-shopping-cart"></i>
 					<b></b>
 				</span>
 			</h4>
+			<ul id="cart-list">
+
+			</ul>
 			<p>Total <span class="price" style="color:black;"></span></p>
 		</div>
 	</div>

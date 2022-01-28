@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
@@ -12,6 +13,72 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\IndexImages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\EmployeeImages\employee1.jpg" />
+    <None Include="wwwroot\EmployeeImages\employee2.jpg" />
+    <None Include="wwwroot\EmployeeImages\employee3.jpg" />
+    <None Include="wwwroot\EmployeeImages\employee4.jpg" />
+    <None Include="wwwroot\icons\icon.jpg" />
+    <None Include="wwwroot\images\mens_pants1.jpg" />
+    <None Include="wwwroot\images\mens_pants2.jpg" />
+    <None Include="wwwroot\images\mens_pants3.jpg" />
+    <None Include="wwwroot\images\mens_pants4.jpg" />
+    <None Include="wwwroot\images\mens_pants5.jpg" />
+    <None Include="wwwroot\images\mens_pants6.jpg" />
+    <None Include="wwwroot\images\mens_shirts1.jpg" />
+    <None Include="wwwroot\images\mens_shirts2.jpg" />
+    <None Include="wwwroot\images\mens_shirts3.jpg" />
+    <None Include="wwwroot\images\mens_shirts4.jpg" />
+    <None Include="wwwroot\images\mens_shirts5.jpg" />
+    <None Include="wwwroot\images\mens_shoes1.jpg" />
+    <None Include="wwwroot\images\mens_shoes2.jpg" />
+    <None Include="wwwroot\images\mens_shoes3.jpg" />
+    <None Include="wwwroot\images\mens_shoes4.jpg" />
+    <None Include="wwwroot\images\mens_shoes5.jpg" />
+    <None Include="wwwroot\images\mens_shorts1.jpg" />
+    <None Include="wwwroot\images\mens_shorts2.jpg" />
+    <None Include="wwwroot\images\mens_shorts3.jpg" />
+    <None Include="wwwroot\images\mens_suits1.jpg" />
+    <None Include="wwwroot\images\mens_suits2.jpg" />
+    <None Include="wwwroot\images\mens_suits3.png" />
+    <None Include="wwwroot\images\mens_suits4.jpg" />
+    <None Include="wwwroot\images\mens_suits5.jpg" />
+    <None Include="wwwroot\images\womens_dresses1.jpg" />
+    <None Include="wwwroot\images\womens_dresses2.jpg" />
+    <None Include="wwwroot\images\womens_dresses3.jpg" />
+    <None Include="wwwroot\images\womens_dresses4.jpeg" />
+    <None Include="wwwroot\images\womens_dresses5.jpg" />
+    <None Include="wwwroot\images\womens_dresses6.jpg" />
+    <None Include="wwwroot\images\womens_pants1.jpg" />
+    <None Include="wwwroot\images\womens_pants2.jpg" />
+    <None Include="wwwroot\images\womens_pants3.jpg" />
+    <None Include="wwwroot\images\womens_pants4.jpg" />
+    <None Include="wwwroot\images\womens_pants5.jpg" />
+    <None Include="wwwroot\images\womens_shirts1.jpg" />
+    <None Include="wwwroot\images\womens_shirts2.jpg" />
+    <None Include="wwwroot\images\womens_shirts3.jpg" />
+    <None Include="wwwroot\images\womens_shirts4.jpg" />
+    <None Include="wwwroot\images\womens_shirts5.jpg" />
+    <None Include="wwwroot\images\womens_shirts6.jpg" />
+    <None Include="wwwroot\images\womens_shoes1.jpg" />
+    <None Include="wwwroot\images\womens_shoes2.jpg" />
+    <None Include="wwwroot\images\womens_shoes3.jpg" />
+    <None Include="wwwroot\images\womens_shoes4.jpg" />
+    <None Include="wwwroot\images\womens_shoes5.jpg" />
+    <None Include="wwwroot\images\womens_shoes6.jpg" />
+    <None Include="wwwroot\images\womens_skirts1.jpg" />
+    <None Include="wwwroot\images\womens_skirts2.jpg" />
+    <None Include="wwwroot\images\womens_skirts3.jpg" />
+    <None Include="wwwroot\images\womens_skirts4.jpg" />
+    <None Include="wwwroot\IndexImages\physicalStores.jpg" />
+    <None Include="wwwroot\IndexImages\savings.jpg" />
+    <None Include="wwwroot\IndexImages\Shopping.jpg" />
   </ItemGroup>
 
 </Project>

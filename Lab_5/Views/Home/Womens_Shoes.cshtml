@@ -1,38 +1,78 @@
 ﻿
 @{
-	ViewData["Title"] = "Womens Shoes";
+	ViewData["Title"] = "Womens_Shoes";
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!--A simple div container that shows the womens shoes-->
-<div class="grid grid--uniform small--grid--flush">
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shoes1.jpg" class="grid-product__link" data-bss-pl="active"></a>
+
+<section class="section-products">
+	<!--Header-->
+	<div class="container">
+		<div class="row justify-content-center text-center">
+			<div class="col-md-8 col-lg-6">
+				<div class="header">
+					<h3>Womens Shoes</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shoes1.jpg" alt="Yellow High Heels" style="width:100%" />
+				<span class="discount">On Sale!</span>
+				<h1 class="product-title">High Heels</h1>
+				<p class="product-old-price">$149.99</p>
+				<p class="product-price">$99.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shoes2.jpg" alt="Brown Platform Shoes" style="width:100%" />
+				<h1 class="product-title">Brown Shoes</h1>
+				<p class="product-price">$79.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shoes3.jpg" alt="Blue Boots" style="width:100%" />
+				<h1 class="product-title">Boots</h1>
+				<p class="product-price">$119.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shoes4.jpg" alt="Red Dress Shoes" style="width:100%" />
+				<span class="discount">On Sale!</span>
+				<h1 class="product-title">Jeans</h1>
+				<p class="product-old-price">$89.99</p>
+				<p class="product-price">$49.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shoes5.jpg" alt="Blue High Heels" style="width:100%" />
+				<h1 class="product-title">Jeans</h1>
+				<p class="product-price">$129.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
+
+			<div class="card col-md-6 col-lg-4 col-xl-3">
+				<img src="~/images/womens_shoes6.jpg" alt="Brown Boots" style="width:100%" />
+				<h1 class="product-title">Boots</h1>
+				<p class="product-price">$119.99</p>
+				<p></p>
+				<p><button>Add to Cart</button></p>
+				<br />
+			</div>
 		</div>
 	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shoes2.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shoes3.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shoes4.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shoes5.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-	<div class="grid__item grid-product small--one-half medium-up--one-third grid-product">
-		<div class="grid-product__content">
-			<a href="~/images/womens_shoes6.jpg" class="grid-product__link" data-bss-pl="active"></a>
-		</div>
-	</div>
-</div>
+</section>

@@ -12,6 +12,9 @@ using Lab_5.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.AspNetCore.Mvc;
+using Lab_5.Data;
+using Microsoft.AspNetCore.Identity;
+//using Microsoft.EntityFrameworkCore.Tools;
 
 namespace Lab_5
 {
@@ -28,12 +31,19 @@ namespace Lab_5
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
+			//Want to keep the project compatible with older versions in case companies have not updated yet
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+			//Disable endpoint routing. 
 			services.AddMvc(options => options.EnableEndpointRouting = false);
+			services.AddRazorPages();
+			//Adds all the MVC related services to the project
+			services.AddMvc();
 
 			//Adding a connection
-			string connection = @"Server=(localdb)\mssqllocaldb;Database=Lab_5;Trusted_Connection=True;ConnectRetryCount=0";
-			services.AddDbContext<CheckoutContext>(options => options.UseSqlServer(connection));
+			services.AddDbContext<CheckoutContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+			//NTS: Double check this very quickly or you'll get fucked up
+			//services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddRoles;
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +66,10 @@ namespace Lab_5
 			app.UseRouting();
 
 			app.UseAuthorization();
+
+			app.UseMvcWithDefaultRoute();
+
+			app.UseAuthentication();
 
 			app.UseEndpoints(endpoints =>
 			{

@@ -159,3 +159,10 @@ C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\obj\Debug\netcoreapp3.1\Razor\V
 C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Womens_Shoes.cshtml.g.cs
 C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Womens_SkirtsAndDresses.cshtml.g.cs
 C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Womens_Tops.cshtml.g.cs
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\DC Semesters\Fall 2021\NETD\Lab 5\Lab_5\Lab_5\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
